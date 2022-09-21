@@ -1,0 +1,12 @@
+a = int(input("Ерболат: "))
+
+if(a >= 90):
+    print("Уровень: A")
+elif(a >= 80 & a < 90):
+    print("Уровень: B")
+elif(a >= 70 & a< 80):
+    print("Уровень: C")
+elif(a >= 60 & a < 70):
+    print("Уровень: D")
+else:
+    print("Уровень: F")
